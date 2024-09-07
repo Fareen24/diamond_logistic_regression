@@ -7,8 +7,11 @@ The primary goal of this project is to predict the cut of a diamond (with catego
 
 # Key Features:
 **Data Preprocessing**: Outlier removal using the Interquartile Range (IQR) method.
+
 **Modeling**: Multinomial Logistic Regression for predicting diamond cut.
+
 **Evaluation**: Confusion matrix, classification report, accuracy score, and F1-score metrics are used to evaluate the performance of the model.
+
 **Visualization**: Includes visualizations like confusion matrix heatmaps to interpret model performance.
 
 # Dataset
@@ -32,7 +35,7 @@ The dataset includes the following columns:
 
 # Steps taken:
 ## 1. Loading necessary libraries and data:
-Handled missing values (if any).
+Imported the necessary libraries and loaded the dataset into a pandas Dataframe.
 
 ## 2. Exploratory Data Analysis:
 Visualized distributions of key features.
